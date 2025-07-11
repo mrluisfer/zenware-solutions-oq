@@ -1,3 +1,4 @@
+import "@/app/polyfills" // 👈 must run first
 import type React from "react"
 import type { Metadata } from "next"
 import { Inter } from "next/font/google"
@@ -46,7 +47,7 @@ export const metadata: Metadata = {
   verification: {
     google: "your-google-verification-code",
   },
-    generator: 'v0.dev'
+  generator: "v0.dev",
 }
 
 export default function RootLayout({
