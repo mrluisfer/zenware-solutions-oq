@@ -1,0 +1,358 @@
+{
+  "Navbar": {
+    "brandName": "Bambú",
+    "homeLink": "Home",
+    "servicesLink": "Services",
+    "featuresLink": "Features",
+    "testimonialsLink": "Testimonials",
+    "testimonialsLinkDescription": "See what our customers say about us.",
+    "healthCheckLink": "Health Check",
+    "healthCheckLinkDescription": "Get a comprehensive assessment of your device's health.",
+    "contactLink": "Contact",
+    "pricingLink": "Pricing",
+    "aboutLink": "About",
+    "seeYourOrdersLink": "See Your Past Services",
+    "seeYourOrdersLinkDescription": "View your services history and status."
+  },
+  "HomePage": {
+    "HeroSection": {
+      "brandName": "Bambu",
+      "subtitle": "Flexible tech care for everyone.",
+      "description": "Professional computer and device maintenance that grows with your needs. From quick fixes to comprehensive care plans, we keep your technology running smoothly.",
+      "getStartedButton": "Get Started",
+      "tryHealthCheck": "Try Health Check",
+      "90DaysWarranty": "90-day warranty on all repairs.",
+      "hourTurnaround": "24-48 hour turnaround.",
+      "certifiedTechnicians": "Certified technicians."
+    },
+    "HowWeWorksSection": {
+      "title": "How We Work",
+      "description": "Simple, transparent process designed around your convenience",
+      "steps": [
+        {
+          "title": "Contact Us",
+          "description": "Reach out via phone, email, or our online form. We respond within 2 hours during business days.",
+          "timelineContent": "Tip: Prepare your device details (brand, model, symptoms). The clearer the info, the faster we can assist you.",
+          "date": "Today"
+        },
+        {
+          "title": "Assessment",
+          "description": "We evaluate your device and provide a clear diagnosis with transparent pricing upfront.",
+          "timelineContent": "Behind the scenes: Our experts run diagnostic tests and check for hidden issues you might not have noticed.",
+          "date": "Tomorrow"
+        },
+        {
+          "title": "Expert Care",
+          "description": "Our certified technicians handle your device with precision and care using quality parts.",
+          "timelineContent": "What you get: Real-time updates on repair progress, plus optional cleaning and performance optimization, free of charge.",
+          "date": "Next Week"
+        },
+        {
+          "title": "Quality Guarantee",
+          "description": "Every repair comes with our 90-day warranty and ongoing support for peace of mind.",
+          "timelineContent": "Extra benefit: Get access to our priority support line and reminders for preventive maintenance so your tech stays healthy.",
+          "date": "Trust Us"
+        }
+      ]
+    },
+    "ServicesSection": {
+      "title": "Complete Tech Care Service",
+      "description": "From smartphones to servers, we handle all your technology needs with expertise and care",
+      "services": [
+        {
+          "title": "Mobile Devices",
+          "description": "Screen repairs, battery replacements, and software troubleshooting for all smartphone and tablet brands.",
+          "features": [
+            {
+              "title": "Screen repair",
+              "content": "We fix cracked, shattered, or unresponsive screens on all major brands and models."
+            },
+            {
+              "title": "Battery replacement",
+              "content": "Extend your device’s life with a fast battery swap using high-quality parts."
+            },
+            {
+              "title": "Software fixes",
+              "content": "Resolve software issues, crashes, malware, or update problems in no time."
+            },
+            {
+              "title": "Water damage recovery",
+              "content": "Save devices after liquid exposure with advanced drying and repair techniques."
+            }
+          ]
+        },
+        {
+          "title": "Laptops & Notebooks",
+          "description": "Hardware upgrades, virus removal, performance optimization, and comprehensive system maintenance.",
+          "features": [
+            {
+              "title": "Performance tuning",
+              "content": "Speed up slow laptops by optimizing system resources and cleaning up software."
+            },
+            {
+              "title": "Virus removal",
+              "content": "Remove malware and protect your device from future threats."
+            },
+            {
+              "title": "Hardware upgrades",
+              "content": "Boost performance by upgrading RAM, storage, or other components."
+            },
+            {
+              "title": "System cleanup",
+              "content": "Get rid of junk files and improve stability for long-term use."
+            }
+          ]
+        },
+        {
+          "title": "Desktop Systems",
+          "description": "Custom builds, component upgrades, system optimization, and preventive maintenance services.",
+          "features": [
+            {
+              "title": "Custom builds",
+              "content": "Build the perfect PC for work or play, fully tailored to your needs."
+            },
+            {
+              "title": "Component upgrades",
+              "content": "Upgrade graphics cards, processors, and more for improved power."
+            },
+            {
+              "title": "System optimization",
+              "content": "Make your desktop run like new with expert configuration and updates."
+            },
+            {
+              "title": "Preventive maintenance",
+              "content": "Routine checks and cleaning to prevent future problems."
+            }
+          ]
+        },
+        {
+          "title": "Quick Turnaround",
+          "description": "Most repairs completed within 24-48 hours. Emergency services available for critical business needs.",
+          "features": [
+            {
+              "title": "24-48 hour service",
+              "content": "Most repairs are finished in just one or two days, so you get back to work fast."
+            },
+            {
+              "title": "Emergency repairs",
+              "content": "Priority service for urgent situations—get your tech back in record time."
+            },
+            {
+              "title": "Express options",
+              "content": "Upgrade to our fastest service for same-day turnaround when possible."
+            },
+            {
+              "title": "Status updates",
+              "content": "Track your repair in real time and receive instant notifications."
+            }
+          ]
+        },
+        {
+          "title": "Business Solutions",
+          "description": "Bulk device management, maintenance contracts, and dedicated support for small to medium businesses.",
+          "features": [
+            {
+              "title": "Bulk discounts",
+              "content": "Save more when you maintain or repair multiple devices at once."
+            },
+            {
+              "title": "Maintenance contracts",
+              "content": "Keep your business running smoothly with scheduled checkups and support."
+            },
+            {
+              "title": "Priority support",
+              "content": "Access a dedicated line for business clients—no waiting."
+            },
+            {
+              "title": "On-site service",
+              "content": "We come to your office or store to resolve issues on the spot."
+            }
+          ]
+        },
+        {
+          "title": "Data Protection",
+          "description": "Secure data handling, backup services, and recovery solutions to keep your information safe.",
+          "features": [
+            {
+              "title": "Data backup",
+              "content": "Automate backups and protect your files against loss or theft."
+            },
+            {
+              "title": "Recovery services",
+              "content": "Recover deleted, lost, or corrupted data from drives and devices."
+            },
+            {
+              "title": "Security audits",
+              "content": "Get a professional review of your device’s security settings and risks."
+            },
+            {
+              "title": "Privacy protection",
+              "content": "We treat your information with the highest confidentiality and care."
+            }
+          ]
+        }
+      ],
+      "ctaViewAll": "View All Services",
+      "ctaHealthCheck": "Try our device Health Check test"
+    },
+    "TestimonialsSection": {
+      "title": "What Our Customers Say",
+      "description": "Real experiences from people who trust us with their technology",
+      "testimonials": [
+        {
+          "name": "Sarah Chen",
+          "role": "Small Business Owner",
+          "avatar": "SC",
+          "content": "Bambú saved my business when our main computer crashed right before tax season. They recovered everything and had us back up in 24 hours. Incredible service!",
+          "rating": 5,
+          "company": "Chen's Accounting Services"
+        },
+        {
+          "name": "Marcus Rodriguez",
+          "role": "Freelance Designer",
+          "avatar": "MR",
+          "content": "I've been using Bambú for all my tech needs for over a year. Their preventive maintenance keeps my equipment running perfectly, and their prices are always fair.",
+          "rating": 5,
+          "company": "Rodriguez Design Studio"
+        },
+        {
+          "name": "Emily Watson",
+          "role": "College Student",
+          "avatar": "EW",
+          "content": "My laptop screen cracked the day before finals. Bambú fixed it the same day and even gave me a student discount. They really understand what matters to their customers.",
+          "rating": 5,
+          "company": "State University"
+        },
+        {
+          "name": "David Kim",
+          "role": "IT Manager",
+          "avatar": "DK",
+          "content": "We've partnered with Bambú for our company's device maintenance. Their business solutions have saved us time and money while keeping our team productive.",
+          "rating": 5,
+          "company": "TechStart Inc."
+        },
+        {
+          "name": "Lisa Thompson",
+          "role": "Photographer",
+          "avatar": "LT",
+          "content": "When my camera's memory card corrupted with a wedding shoot on it, Bambú recovered every single photo. They're not just tech experts—they're lifesavers.",
+          "rating": 5,
+          "company": "Thompson Photography"
+        },
+        {
+          "name": "James Wilson",
+          "role": "Retired Teacher",
+          "avatar": "JW",
+          "content": "I was intimidated by technology issues, but the Bambú team explained everything clearly and patiently. They made the whole process stress-free.",
+          "rating": 5,
+          "company": "Lincoln Elementary (Retired)"
+        },
+        {
+          "name": "Sophia Ramirez",
+          "role": "Entrepreneur",
+          "avatar": "SR",
+          "content": "I signed up for an annual maintenance plan for my coffee shop, and my devices have worked perfectly since then. Highly recommended!",
+          "rating": 5,
+          "company": "Coffee & Letters"
+        },
+        {
+          "name": "Alex Cruz",
+          "role": "Independent Musician",
+          "avatar": "AC",
+          "content": "They helped me recover audio files I thought were lost forever. Super skilled team and very friendly support.",
+          "rating": 5,
+          "company": "Cruz Digital Music"
+        },
+        {
+          "name": "Valentina Torres",
+          "role": "Architect",
+          "avatar": "VT",
+          "content": "I was afraid I'd lose my renderings before a big deadline, but Bambú fixed my PC and backed everything up in less than 48 hours.",
+          "rating": 5,
+          "company": "Torres Architecture"
+        },
+        {
+          "name": "Michael Lee",
+          "role": "Software Engineer",
+          "avatar": "ML",
+          "content": "I'm based in Canada and requested remote help to optimize my laptop. Great customer service, they solved it in one session.",
+          "rating": 5,
+          "company": "Lee Solutions"
+        },
+        {
+          "name": "Ana Gomez",
+          "role": "Mother",
+          "avatar": "AG",
+          "content": "My son broke the tablet and I thought it was gone for good. Bambú fixed it and gave us tips on how to keep it safe.",
+          "rating": 5,
+          "company": "Gomez Family"
+        },
+        {
+          "name": "Daniela Paredes",
+          "role": "Web Developer",
+          "avatar": "DP",
+          "content": "Whenever something unexpected happens to my laptop, Bambú replies fast and their maintenance tips are always spot on.",
+          "rating": 5,
+          "company": "Freelancer"
+        }
+      ],
+      "trustIndicators": [
+        { "value": "500", "label": "Happy Customers", "symbol": "+" },
+        { "value": "98", "label": "Success Rate", "symbol": "%" },
+        { "value": "24", "label": "Avg. Turnaround", "symbol": "hr" },
+        { "value": "5", "label": "Average Rating", "symbol": "★" }
+      ]
+    },
+    "CTASection": {
+      "title": "Ready to Get Started?",
+      "description": "Don't let tech troubles slow you down. Get expert care for your devices today and experience the Bambú difference.",
+      "ctaQuote": "Get Free Quote",
+      "ctaHealthCheck": "Try Health Check",
+      "contact": {
+        "phone": "(555) 123-TECH",
+        "openLabel": "Open:",
+        "schedule": "Mon-Fri 9AM-6PM",
+        "responseLabel": "Response:",
+        "response": "Within 2 hours"
+      }
+    }
+  },
+  "Footer": {
+    "brandName": "Bambú",
+    "description": "Flexible tech care for everyone. Professional computer and device maintenance that grows with your needs.",
+    "sections": {
+      "services": "Services",
+      "company": "Company",
+      "support": "Support"
+    },
+    "links": {
+      "services": [
+        { "name": "Computer Repair", "href": "/services/computer-repair" },
+        { "name": "Mobile Devices", "href": "/services/mobile-devices" },
+        { "name": "Business Solutions", "href": "/services/business" },
+        { "name": "Data Recovery", "href": "/services/data-recovery" }
+      ],
+      "company": [
+        { "name": "About Us", "href": "/about" },
+        { "name": "Our Process", "href": "/process" },
+        { "name": "Testimonials", "href": "/testimonials" },
+        { "name": "Careers", "href": "/careers" }
+      ],
+      "support": [
+        { "name": "Help Center", "href": "/help" },
+        { "name": "Contact Support", "href": "/contact" },
+        { "name": "Service Status", "href": "/status" },
+        { "name": "Warranty Info", "href": "/warranty" }
+      ]
+    },
+    "contact": {
+      "phone": "(555) 123-TECH",
+      "email": "hello@bambu.tech",
+      "location": "Greater Metro Area",
+      "hours": "Mon-Fri 9AM-6PM"
+    },
+    "copyright": "© 2024 Bambú Tech Care. All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  }
+}
