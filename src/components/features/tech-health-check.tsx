@@ -26,6 +26,7 @@ import {
   ArrowRight,
   Play,
 } from "lucide-react";
+import { IconContainer } from "../icon-container";
 
 interface Question {
   id: string;
@@ -328,13 +329,16 @@ export function TechHealthCheck() {
               transition={{ duration: 0.6 }}
               className="max-w-3xl mx-auto text-center"
             >
-              <motion.div
+              {/* <motion.div
                 className="w-24 h-24 bg-gradient-to-br from-brand-500 to-accent-600 rounded-3xl flex items-center justify-center mx-auto mb-8 shadow-2xl"
                 whileHover={{ scale: 1.1, rotate: 5 }}
                 transition={{ type: "spring", stiffness: 300 }}
               >
                 <Laptop className="w-12 h-12 text-white" />
-              </motion.div>
+              </motion.div> */}
+              <IconContainer>
+                <Laptop className="size-10 lg:size-20 xl:size-24 text-white" />
+              </IconContainer>
 
               <h1 className="text-4xl md:text-6xl font-bold text-slate-800 mb-6">
                 Tech Health Check

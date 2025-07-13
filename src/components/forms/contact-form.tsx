@@ -27,6 +27,7 @@ import {
   MapPin,
   Clock,
 } from "lucide-react";
+import { IconContainer } from "../icon-container";
 
 interface FormData {
   name: string;
@@ -202,9 +203,12 @@ export function ContactForm() {
             transition={{ duration: 0.8, ease: "easeOut" }}
             className="mb-8"
           >
-            <div className="w-20 h-20 bg-gradient-to-br from-brand-500 to-accent-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl">
+            {/* <div className="w-20 h-20 bg-gradient-to-br from-brand-500 to-accent-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-xl">
               <MessageSquare className="w-10 h-10 text-white" />
-            </div>
+            </div> */}
+            <IconContainer>
+              <MessageSquare className="size-10 lg:size-20 text-white" />
+            </IconContainer>
             <h1 className="text-4xl md:text-6xl font-bold text-slate-800 mb-4">
               Contact Bambú
             </h1>

@@ -13,6 +13,7 @@ import { TranslationKeys } from "@/types/translation-keys";
 import { Globe } from "../magicui/globe";
 import { COBEOptions } from "cobe";
 import { AuroraText } from "../magicui/aurora-text";
+import { IconContainer } from "../icon-container";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -105,13 +106,13 @@ export function HeroSection() {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 1, ease: "easeOut" }}
           >
-            <div className="w-24 h-24 lg:w-32 lg:h-32 bg-gradient-to-br from-brand-500 to-accent-600 rounded-3xl flex items-center justify-center mx-auto mb-6 shadow-2xl">
+            <IconContainer>
               <Logo
                 width={logoSize}
                 height={logoSize}
                 className="text-white absolute"
               />
-            </div>
+            </IconContainer>
           </motion.div>
 
           {/* Main Heading */}
