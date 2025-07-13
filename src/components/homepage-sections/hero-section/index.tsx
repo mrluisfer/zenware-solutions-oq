@@ -5,16 +5,17 @@ import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Leaf, ArrowRight, Play, ChevronDown } from "lucide-react";
 import { HomepageSections } from "@/constants/homepage-sections";
-import { Logo } from "../logo";
+import { Logo } from "../../logo";
 import { useIsMobile } from "@/hooks/use-mobile";
-import { TryHealthCheckButton } from "./try-health-check-button";
+import { TryHealthCheckButton } from "../try-health-check-button";
 import { useTranslations } from "next-intl";
 import { TranslationKeys } from "@/types/translation-keys";
-import { Globe } from "../magicui/globe";
+import { Globe } from "../../magicui/globe";
 import { COBEOptions } from "cobe";
-import { AuroraText } from "../magicui/aurora-text";
-import { IconContainer } from "../icon-container";
+import { AuroraText } from "../../magicui/aurora-text";
+import { IconContainer } from "../../icon-container";
 import { globeConfig } from "@/constants/globe-config";
+import { HeroGlobe } from "./hero-globe";
 
 const fadeInUp = {
   initial: { opacity: 0, y: 60 },
@@ -54,10 +55,7 @@ export function HeroSection() {
       </div>
 
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 pt-20 pb-16 xl:pb-32 relative z-10">
-        <Globe
-          className="size-[340px] md:size-[420px] lg:size-[540px] xl:size-[800px] -z-10 left-0 opacity-20"
-          config={globeConfig as COBEOptions}
-        />
+        <HeroGlobe />
 
         <motion.div
           className="text-center max-w-5xl mx-auto"
