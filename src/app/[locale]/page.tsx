@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import { Navbar } from "@/components/navbar";
 import { HeroSection } from "@/components/homepage-sections/hero-section";
-import { HowItWorksSection } from "@/components/homepage-sections/how-it-works-section";
+import { HowWeWorkSection } from "@/components/homepage-sections/how-we-work-section";
 import { ServicesSection } from "@/components/homepage-sections/services-section";
 import { TestimonialsSection } from "@/components/homepage-sections/testimonials-section";
 import { CTASection } from "@/components/homepage-sections/cta-section";
@@ -15,7 +15,7 @@ export default function HomePage() {
       <Navbar />
       <main>
         <HeroSection />
-        <HowItWorksSection />
+        <HowWeWorkSection />
         <ServicesSection />
         <TestimonialsSection />
         <CTASection />

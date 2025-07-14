@@ -1,12 +1,13 @@
 import { Globe } from "@/components/magicui/globe";
 import { globeConfig } from "@/constants/globe-config";
+import { SupportedOS } from "@/constants/supported-os";
 import { useOSPlatform } from "@/hooks/use-os-platform";
 import { COBEOptions } from "cobe";
 
 export const HeroGlobe = () => {
   const os = useOSPlatform();
 
-  if (os === "windows") {
+  if (os === SupportedOS.WINDOWS || os === SupportedOS.OTHER) {
     return null; // For some reason, the globe doesn't render correctly on Windows
   }
 
